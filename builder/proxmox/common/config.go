@@ -44,7 +44,7 @@ type Config struct {
 	VMName string `mapstructure:"vm_name"`
 	VMID   int    `mapstructure:"vm_id"`
 	
-	ForceCreate    bool    `mapstructure:"force"`
+	ForceCreate    bool           `mapstructure:"force"`
 	Boot           string         `mapstructure:"boot"`
 	Memory         int            `mapstructure:"memory"`
 	Cores          int            `mapstructure:"cores"`
